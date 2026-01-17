@@ -1,4 +1,45 @@
 
+.img_escudo_ipn {
+    width: 300px;
+    height: 240px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.img_escudo_esime {
+    width: 250px;
+    height: 240px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.presentacion {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+.titulo_presentacion {
+    text-align: center;
+    font-size: 80px;
+     margin-top: 15px;
+}
+.subtitulo_presentacion {
+    font-size: 40px;
+    color: #555555;
+}
+
+.text-presentacion{
+    font-style: italic;
+    margin-top: 30px;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.herramientas {
+    text-align: center;
+}
 .certificaciones {
     background-color: #faf8f8;
 }
