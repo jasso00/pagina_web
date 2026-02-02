@@ -1,0 +1,33 @@
+.LINKEDIN {
+    color: #FFFFFF;
+    text-align: center;
+    th,
+    td {
+        padding-top: 10px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        padding-right: 40px;
+    }
+}
+.img_linkedin{
+    width: 400px;
+    height: 300px;
+}
+
+.SOLOLEARN {
+    color: #FFFFFF;
+    text-align: center;
+    th,
+    td {
+        padding-top: 10px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        padding-right: 40px;
+    }
+}
+
+
+.img_sololearn{
+    width: 400px;
+    height: 300px;
+}
