@@ -67,6 +67,12 @@
     text-align: center;
     color: #FFFFFF;
 }
+.img_aprendiendo {
+    width: 90px;
+    height: 90px;
+    margin: 15px;
+    mix-blend-mode: screen; /* Funciona bien con fondos blancos */
+}
 
 .otras_herramientas {
     background-color: #1E1E1E;
@@ -82,4 +88,35 @@
     background-color: #414040;;
     text-align: center;
     color: #FFFFFF;
+}
+
+
+/* Efecto al pasar el mouse */
+.img_escudo_ipn:hover {
+  background-color: #f1083b; /* Color iluminado */
+  box-shadow: 0 0 30px rgba(255, 0, 55, 0.747); /* Efecto brillo */
+}
+
+.img_escudo_esime:hover {
+  background-color: #10f108; /* Color iluminado */
+  box-shadow: 0 0 30px rgba(0, 255, 0, 0.747); /* Efecto brillo */
+}
+
+.herramientas:hover,.apreniendo:hover,.otras_herramientas:hover,.certificaciones:hover {
+  box-shadow: 0 0 30px rgba(55, 0, 255, 0.747); /* Efecto brillo */
+}
+
+.img_herramientas:hover {
+  background-color: #616128; /* Color iluminado */
+  box-shadow: 0 0 15px rgba(255, 255, 0, 0.548); /* Efecto brillo */
+}
+
+.img_lenguaje:hover {
+  background-color: #318526; /* Color iluminado */
+  box-shadow: 0 0 15px rgba(157, 255, 0, 0.726); /* Efecto brillo */
+}
+
+.img_aprendiendo:hover {
+  background-color: #1cc7b9; /* Color iluminado */
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.726); /* Efecto brillo */
 }

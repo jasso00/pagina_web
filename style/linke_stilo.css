@@ -1,11 +1,11 @@
 .LINKEDIN {
-    color: #FFFFFF;
+    color: #ffffff;
     text-align: center;
     th,
     td {
         padding-top: 10px;
         padding-bottom: 20px;
-        padding-left: 30px;
+        padding-left: 120px;
         padding-right: 40px;
     }
 }
@@ -21,7 +21,7 @@
     td {
         padding-top: 10px;
         padding-bottom: 20px;
-        padding-left: 30px;
+        padding-left: 140px;
         padding-right: 40px;
     }
 }
@@ -30,4 +30,24 @@
 .img_sololearn{
     width: 400px;
     height: 300px;
+}
+
+.contacto {
+    background-color: #414040;;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Titulos{
+    color: yellow;
+}
+
+/* Efecto al pasar el mouse */
+.img_linkedin:hover {
+  background-color: #0b32df; /* Color iluminado */
+  box-shadow: 0 0 50px rgba(0, 68, 255, 0.863); /* Efecto brillo */
+}
+.img_sololearn:hover {
+  background-color: #df0b40; /* Color iluminado */
+  box-shadow: 0 0 50px rgba(255, 0, 0, 0.863); /* Efecto brillo */
 }

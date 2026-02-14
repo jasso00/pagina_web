@@ -5,7 +5,7 @@
     td {
         padding-top: 10px;
         padding-bottom: 20px;
-        padding-left: 30px;
+        padding-left: 120px;
         padding-right: 40px;
     }
 
@@ -15,9 +15,6 @@
     height: 300px;
 }
 
-
-
-
 .UDEMY {
     color: #FFFFFF;
     text-align: center;
@@ -25,7 +22,7 @@
     td {
         padding-top: 10px;
         padding-bottom: 20px;
-        padding-left: 30px;
+        padding-left: 120px;
         padding-right: 40px;
     }
 
@@ -33,4 +30,41 @@
 .img_udemy{
     width: 400px;
     height: 300px;
+}
+
+.contacto {
+    background-color: #414040;;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Titulos {
+    color: blueviolet;
+}
+
+/* Efecto al pasar el mouse */
+.img_scrum:hover, .img_aws:hover, .img_jira:hover {
+  background-color: #24df0b; /* Color iluminado */
+  box-shadow: 0 0 50px rgba(115, 255, 0, 0.897); /* Efecto brillo */
+}
+
+/* Efecto al pasar el mouse */
+.img_udemy:hover{
+  background-color: #bc0bdf; /* Color iluminado */
+  box-shadow: 0 0 50px rgba(204, 0, 255, 0.897); /* Efecto brillo */
+}
+
+.btn-bd-primary {
+    align-items: center;
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bd-violet-bg);
+  --bs-btn-border-color: var(--bd-violet-bg);
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};
+  --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+  --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
 }
