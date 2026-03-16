@@ -4,17 +4,21 @@
 }
 
 .img_escudo_ipn {
-    width: 200px;
-    height: 140px;
-    position: absolute;
+    /*width: 200px;
+    height: 140px;*/
+    max-width:25%; /* Tamaño de la imagen adaptable segun donde se vea */
+     /*position: absolute;*/
+    float:left;
     top: 240px;
     left: 0px;
     mix-blend-mode: screen; /* Funciona bien con fondos blancos */
 }
 .img_escudo_esime {
-    width: 150px;
-    height: 140px;
-    position: absolute;
+    /*width: 150px;
+    height: 140px;*/
+    max-width:25%; /* Tamaño de la imagen adaptable segun donde se vea */
+    /*position: absolute;*/
+    float:right;
     top: 230px;
     right: 0px;
     mix-blend-mode: screen; /* Funciona bien con fondos blancos */
@@ -50,14 +54,16 @@
 }
 
 .img_herramientas {
-    width: 70px;
-    height: 70px;
+    /*width: 70px;
+    height: 70px; */
+    max-width:50%; /* Tamaño de la imagen adaptable segun donde se vea */
     margin: 15px;
     mix-blend-mode: screen; /* Funciona bien con fondos blancos */
 }
 .img_lenguaje {
-    width: 90px;
-    height: 90px;
+    /*width: 90px;
+    height: 90px;*/
+    max-width:25%; /* Tamaño de la imagen adaptable segun donde se vea */
     margin: 15px;
     mix-blend-mode: screen; /* Funciona bien con fondos blancos */
 }
@@ -68,8 +74,9 @@
     color: #FFFFFF;
 }
 .img_aprendiendo {
-    width: 90px;
-    height: 90px;
+    /*width: 90px;
+    height: 90px;*/
+    max-width:40%; /* Tamaño de la imagen adaptable segun donde se vea */
     margin: 15px;
     mix-blend-mode: screen; /* Funciona bien con fondos blancos */
 }
@@ -80,11 +87,13 @@
     color: #FFFFFF;
 }
 .certificaciones {
+    
     background-color: #1E1E1E;
     color: #FFFFFF;
 }
 
 .contacto {
+    width: 100%;
     background-color: #414040;;
     text-align: center;
     color: #FFFFFF;
