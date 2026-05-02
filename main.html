@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0", http-equiv="refresh" content="10">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Portafolio de David Jasso</title>
     <link rel="stylesheet" href="./style/main_stilos.css">
@@ -124,11 +124,25 @@
 
     
 </body>
+<script>
+  setInterval(() => {
+    fetch(window.location.href)
+      .then(response => response.text())
+      .then(html => {
+        document.documentElement.innerHTML = html;
+      })
+      .catch(error => console.error('Error:', error));
+  }, 20000); // cada 10 segundos
+</script>
 <footer>
     <section class="contacto">
         <h3>Redes Sociales</h3>
-        <a href="https://www.linkedin.com/in/david-jasso-retana-a696aa29a" target="_blank">LinkedIn</a><br>
-        <a href="https://github.com/jasso00/pagina_web" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/david-jasso-retana-a696aa29a"  target="_blank">
+            <img class="sociallinklk" src="./imagenes/pie de pagina/LinkedIn-simbolo.png" alt="LinkedIn">
+        </a>
+        <a href="https://github.com/jasso00/pagina_web" target="_blank">
+            <img class="sociallinkgit" src="./imagenes/pie de pagina/github-icon-filled-256.png" alt="GitHub">
+        </a>
     </section>
 </footer>
 

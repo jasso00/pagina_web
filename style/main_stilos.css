@@ -28,6 +28,14 @@
     text-align: center;
     color: #FFFFFF;
 }
+.herramientas ul,
+.apreniendo ul,
+.otras_herramientas ul,
+.certificaciones ul {
+    list-style: none;
+    margin: 20;
+    padding: 0;
+}
 .titulo_presentacion {
     text-align: center;
     font-size: 80px;
@@ -93,10 +101,20 @@
 }
 
 .contacto {
-    width: 100%;
     background-color: #414040;;
     text-align: center;
     color: #FFFFFF;
+}
+
+.sociallinklk {
+    max-width:5%;
+    mix-blend-mode: screen;
+}
+
+.sociallinkgit
+{
+    max-width:5%; /* Tamaño de la imagen adaptable segun donde se vea */
+    mix-blend-mode: screen;
 }
 
 
