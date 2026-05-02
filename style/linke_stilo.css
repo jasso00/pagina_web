@@ -19,8 +19,8 @@
 .SOLOLEARN {
     color: #FFFFFF;
     text-align: center;
-    width: 1000%;
-    font-size: 6vw;
+    width: 100%;
+    font-size: 3vw;
     th,
     td {
         padding-top: 10px;
@@ -34,7 +34,7 @@
 .img_sololearn{
     /*width: 400px;
     height: 300px;*/
-    max-width:100%; /* Tamaño de la imagen adaptable segun donde se vea */
+    max-width:50%; /* Tamaño de la imagen adaptable segun donde se vea */
 }
 
 .contacto {
@@ -45,9 +45,19 @@
 }
 
 .Titulos{
-    font-size: 10vw;
+    font-size: 6vw;
     text-align: center;
     color: yellow;
+}
+.parrafo{
+    font-size: 2vw;
+    text-align: center;
+}
+
+.titutabla{
+    font-size: 1.5vw;
+    text-align: center;
+    color: #b4afaf;
 }
 
 /* Efecto al pasar el mouse */

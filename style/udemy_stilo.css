@@ -1,6 +1,7 @@
 .diferentes {
     color: #FFFFFF;
     text-align: center;
+    width: 100%;
     th,
     td {
         padding-top: 10px;
@@ -11,13 +12,15 @@
 
 }
 .img_scrum, .img_jira , .img_aws{
-    width: 400px;
-    height: 300px;
+   /* width: 400px;
+    height: 300px;*/
+    max-width:100%; /* Tamaño de la imagen adaptable segun donde se vea */
 }
 
 .UDEMY {
     color: #FFFFFF;
     text-align: center;
+    width: 100%;
     th,
     td {
         padding-top: 10px;
@@ -28,8 +31,9 @@
 
 }
 .img_udemy{
-    width: 400px;
-    height: 300px;
+    /*width: 400px;
+    height: 300px;*/
+    max-width:100%; /* Tamaño de la imagen adaptable segun donde se vea */
 }
 
 .contacto {
@@ -38,8 +42,21 @@
     color: #FFFFFF;
 }
 
-.Titulos {
-    color: blueviolet;
+.Titulos{
+    font-size: 5vw;
+    text-align: center;
+    color: rgb(142, 3, 155);
+}
+
+.parrafo{
+    font-size: 2vw;
+    text-align: center;
+}
+
+.titutabla{
+    font-size: 1.5vw;
+    text-align: center;
+    color: #b4afaf;
 }
 
 /* Efecto al pasar el mouse */
