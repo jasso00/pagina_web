@@ -229,5 +229,14 @@
         <a href="https://github.com/jasso00/pagina_web" target="_blank">GitHub</a>
     </section>
 </footer>
-
+<script>
+  setInterval(() => {
+    fetch(window.location.href)
+      .then(response => response.text())
+      .then(html => {
+        document.documentElement.innerHTML = html;
+      })
+      .catch(error => console.error('Error:', error));
+  }, 10000); // cada 10 segundos
+</script>
 </html>

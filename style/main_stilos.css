@@ -76,7 +76,7 @@
 .img_aprendiendo {
     /*width: 90px;
     height: 90px;*/
-    max-width:40%; /* Tamaño de la imagen adaptable segun donde se vea */
+    max-width:30%; /* Tamaño de la imagen adaptable segun donde se vea */
     margin: 15px;
     mix-blend-mode: screen; /* Funciona bien con fondos blancos */
 }
